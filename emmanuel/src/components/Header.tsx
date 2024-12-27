@@ -11,7 +11,7 @@ const Header = () => {
                     width={100}
                     height={100}
                 />
-                <h1 className="font-bold text-2xl">Emmanuel</h1>
+                <h1 className="font-bold text-2xl">Portafolio Personal de Emmanuel</h1>
             </div>
             <div>
                 <Link href="/home">Home</Link>
