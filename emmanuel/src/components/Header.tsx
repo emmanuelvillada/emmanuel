@@ -1,22 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+
 
 const Header = () => {
     return (
-        <div className="flex justify-between items-center">
-            <div className="flex items-center">
-                <Image
-                    src="/emmanuel.png"
-                    alt="Emmanuel Logo"
-                    width={100}
-                    height={100}
-                />
-                <h1 className="font-bold text-2xl">Portafolio Personal de Emmanuel</h1>
-            </div>
-            <div>
-                <Link href="/home">Home</Link>
-            </div>
-        </div>
+        <header className="bg-gray-800 text-white p-4">
+            <nav className="container mx-auto flex justify-between items-center">
+                <h1 className="text-2xl font-bold">Emmanuel Villada Suárez</h1>
+                <ul className="flex space-x-4">
+                    <li><a href="#about" className="hover:text-gray-300">About</a></li>
+                    <li><a href="#skills" className="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#projects" className="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
     );
 };
 

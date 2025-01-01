@@ -1,11 +1,5 @@
-import Layout from './layout';
+import HomePage from '@/pages/HomePage';
 
 export default function Home() {
-    return (
-        <Layout>
-            <div>
-                <h1>Home</h1>
-            </div>
-        </Layout>
-    );
+    return <HomePage />;
 }
