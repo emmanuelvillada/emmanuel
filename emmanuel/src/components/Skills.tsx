@@ -17,8 +17,8 @@ export default function Skills() {
                 key={index}
                 size={20}
                 className={`${index < level
-                        ? 'fill-yellow-400 text-yellow-400'
-                        : 'fill-gray-200 text-gray-200'
+                    ? 'fill-yellow-400 text-yellow-400'
+                    : 'fill-gray-200 text-gray-200'
                     } transition-colors duration-200`}
             />
         ));
@@ -31,7 +31,7 @@ export default function Skills() {
                 {Object.entries(Skills).map(([skill, level]) => (
                     <div
                         key={skill}
-                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+                        className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 hover:scale-105 cursor-pointer"
                     >
                         <h3 className="text-lg font-semibold mb-3 text-center text-gray-800">
                             {skill}
