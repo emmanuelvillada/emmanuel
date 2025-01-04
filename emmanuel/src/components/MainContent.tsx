@@ -3,6 +3,7 @@ import Projects from '@/components/Projects';
 import Experience from '@/components/Experience';
 import ContactForm from '@/components/ContactForm';
 import Skills from '@/components/Skills';
+import Education from '@/components/Education';
 
 export default function MainContent() {
     return (
@@ -44,6 +45,13 @@ export default function MainContent() {
                             View on Map
                         </a>
                     </div>
+                </div>
+            </section>
+
+            {/* Education Section */}
+            <section className="py-20 bg-gray-50">
+                <div className="container mx-auto px-4">
+                    <Education />
                 </div>
             </section>
 
